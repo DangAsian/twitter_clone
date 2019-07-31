@@ -5,8 +5,8 @@ from .serializers import TweetSerializer
 
 #Cheat cheat cheat cheat
 class TweetViewSet(viewsets.ModelViewSet):
-    queryset = Tweet.objets.all()
+    queryset = Tweet.objects.all()
     permission_classes = [
-        permissions:AllowAny
+        permissions.AllowAny
     ]
     serializer_class = TweetSerializer
